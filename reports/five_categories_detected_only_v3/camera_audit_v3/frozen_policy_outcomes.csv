@@ -1,0 +1,13 @@
+model,seed,variant,status,reason,threshold
+mobilenet_v3_large,42,raw,selected,passes_binomial_bonferroni_screening,0.99
+mobilenet_v3_large,42,scaled,selected,passes_binomial_bonferroni_screening,0.99
+efficientnet_b0,42,raw,selected,passes_binomial_bonferroni_screening,0.94
+efficientnet_b0,42,scaled,selected,passes_binomial_bonferroni_screening,0.98
+mobilenet_v3_large,123,raw,selected,passes_binomial_bonferroni_screening,0.995
+mobilenet_v3_large,123,scaled,selected,passes_binomial_bonferroni_screening,0.97
+efficientnet_b0,123,raw,selected,passes_binomial_bonferroni_screening,0.92
+efficientnet_b0,123,scaled,selected,passes_binomial_bonferroni_screening,0.95
+mobilenet_v3_large,2026,raw,selected,passes_binomial_bonferroni_screening,0.999
+mobilenet_v3_large,2026,scaled,selected,passes_binomial_bonferroni_screening,0.98
+efficientnet_b0,2026,raw,selected,passes_binomial_bonferroni_screening,0.97
+efficientnet_b0,2026,scaled,selected,passes_binomial_bonferroni_screening,0.94

@@ -1,0 +1,266 @@
+{
+  "camera_interpretation": "approximate_diagnostic_not_guaranteed_camera_coverage",
+  "camera_uncertainty_role": "diagnostic_only",
+  "cp_single_test_alpha": 4.901960784313726e-05,
+  "evaluation_sha256": "9bb2a0020a584ff5aa70c847d9f4397a4bd931ae8685412fd5c0ac39e97ee2b2",
+  "familywise_alpha": 0.05,
+  "policy_bootstrap_repeats": 10000,
+  "policy_camera_count": 13,
+  "policy_max_t_critical": 3.7084544062133964,
+  "policy_method": "fixed-grid binomial Clopper-Pearson Bonferroni selection; approximate simultaneous camera bootstrap is diagnostic only",
+  "policy_selection_bound": "binomial_bonferroni_ucb_95",
+  "runs": [
+    {
+      "checkpoint_sha256": "210ea3a720a32e98437fb70910d08f88fe8a87bea1064d7b076d2921d64ca97d",
+      "model": "mobilenet_v3_large",
+      "policies": {
+        "raw": {
+          "accepted": 574,
+          "accepted_cameras": 12,
+          "accepted_error": 0.017421602787456445,
+          "binomial_bonferroni_ucb_95": 0.04941990813268669,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.008485342426744551,
+          "camera_bootstrap_simultaneous_upper_approx": 0.048889108298146744,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.4132469402447804,
+          "errors": 10,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04941990813268669,
+          "status": "selected",
+          "threshold": 0.99
+        },
+        "scaled": {
+          "accepted": 505,
+          "accepted_cameras": 12,
+          "accepted_error": 0.015841584158415842,
+          "binomial_bonferroni_ucb_95": 0.04984865489452178,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.007950507755718319,
+          "camera_bootstrap_simultaneous_upper_approx": 0.045325679676743225,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.36357091432685384,
+          "errors": 8,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04984865489452178,
+          "status": "selected",
+          "threshold": 0.99
+        }
+      },
+      "seed": 42,
+      "temperature": 1.1407798358857382
+    },
+    {
+      "checkpoint_sha256": "f515f4b992cc585f035c3a9ad731065e4f04228795cb03e7622a57f22f1b1df8",
+      "model": "efficientnet_b0",
+      "policies": {
+        "raw": {
+          "accepted": 783,
+          "accepted_cameras": 13,
+          "accepted_error": 0.019157088122605363,
+          "binomial_bonferroni_ucb_95": 0.045947847834950456,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.008228320441296965,
+          "camera_bootstrap_simultaneous_upper_approx": 0.049671439318868846,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.5637149028077754,
+          "errors": 15,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.045947847834950456,
+          "status": "selected",
+          "threshold": 0.94
+        },
+        "scaled": {
+          "accepted": 777,
+          "accepted_cameras": 13,
+          "accepted_error": 0.01673101673101673,
+          "binomial_bonferroni_ucb_95": 0.04252006795531913,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.006736569675981805,
+          "camera_bootstrap_simultaneous_upper_approx": 0.041713278228675,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.5593952483801296,
+          "errors": 13,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04252006795531913,
+          "status": "selected",
+          "threshold": 0.98
+        }
+      },
+      "seed": 42,
+      "temperature": 0.7508358427268813
+    },
+    {
+      "checkpoint_sha256": "b7f32c13818906041cfca6f6b734d2af622f5abcd3ce8b443e7917705a5e4f52",
+      "model": "mobilenet_v3_large",
+      "policies": {
+        "raw": {
+          "accepted": 732,
+          "accepted_cameras": 13,
+          "accepted_error": 0.020491803278688523,
+          "binomial_bonferroni_ucb_95": 0.049101963312090574,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.006202089271202233,
+          "camera_bootstrap_simultaneous_upper_approx": 0.04349196856420727,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.5269978401727862,
+          "errors": 15,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.049101963312090574,
+          "status": "selected",
+          "threshold": 0.995
+        },
+        "scaled": {
+          "accepted": 737,
+          "accepted_cameras": 13,
+          "accepted_error": 0.018995929443690638,
+          "binomial_bonferroni_ucb_95": 0.04679611406704149,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.006269564963367324,
+          "camera_bootstrap_simultaneous_upper_approx": 0.042246325257131324,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.5305975521958244,
+          "errors": 14,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04679611406704149,
+          "status": "selected",
+          "threshold": 0.97
+        }
+      },
+      "seed": 123,
+      "temperature": 1.4710419034419966
+    },
+    {
+      "checkpoint_sha256": "3c435d179711d7e52ab17e5e5295812a48aba18b7846ece1cebd7b52196ac107",
+      "model": "efficientnet_b0",
+      "policies": {
+        "raw": {
+          "accepted": 821,
+          "accepted_cameras": 13,
+          "accepted_error": 0.02192448233861145,
+          "binomial_bonferroni_ucb_95": 0.04908160004412739,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.006336178068649653,
+          "camera_bootstrap_simultaneous_upper_approx": 0.04542190981584794,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.5910727141828653,
+          "errors": 18,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04908160004412739,
+          "status": "selected",
+          "threshold": 0.92
+        },
+        "scaled": {
+          "accepted": 813,
+          "accepted_cameras": 13,
+          "accepted_error": 0.02214022140221402,
+          "binomial_bonferroni_ucb_95": 0.04955773572920379,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.006517742727843087,
+          "camera_bootstrap_simultaneous_upper_approx": 0.04631097313984904,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.5853131749460043,
+          "errors": 18,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04955773572920379,
+          "status": "selected",
+          "threshold": 0.95
+        }
+      },
+      "seed": 123,
+      "temperature": 0.8792262605197838
+    },
+    {
+      "checkpoint_sha256": "a0d7865c2dcbfd6486785c72e52b2a595170daddd109b5b19b58a1e361e04759",
+      "model": "mobilenet_v3_large",
+      "policies": {
+        "raw": {
+          "accepted": 548,
+          "accepted_cameras": 11,
+          "accepted_error": 0.016423357664233577,
+          "binomial_bonferroni_ucb_95": 0.0488902535057818,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.018697276507179388,
+          "camera_bootstrap_simultaneous_upper_approx": 0.0857613551114732,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.39452843772498203,
+          "errors": 9,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.0488902535057818,
+          "status": "selected",
+          "threshold": 0.999
+        },
+        "scaled": {
+          "accepted": 592,
+          "accepted_cameras": 11,
+          "accepted_error": 0.016891891891891893,
+          "binomial_bonferroni_ucb_95": 0.04794125827920959,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.018971858914960952,
+          "camera_bootstrap_simultaneous_upper_approx": 0.08724816567913773,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.42620590352771776,
+          "errors": 10,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04794125827920959,
+          "status": "selected",
+          "threshold": 0.98
+        }
+      },
+      "seed": 2026,
+      "temperature": 1.5461057328265864
+    },
+    {
+      "checkpoint_sha256": "08c3c8ea1c22b8f136acbb344bdda3c08610fb669486ce1e8b8b3c0bdd7d62cb",
+      "model": "efficientnet_b0",
+      "policies": {
+        "raw": {
+          "accepted": 914,
+          "accepted_cameras": 13,
+          "accepted_error": 0.02188183807439825,
+          "binomial_bonferroni_ucb_95": 0.04722361161718665,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.011363132636365129,
+          "camera_bootstrap_simultaneous_upper_approx": 0.06402149736811376,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.6580273578113751,
+          "errors": 20,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04722361161718665,
+          "status": "selected",
+          "threshold": 0.97
+        },
+        "scaled": {
+          "accepted": 909,
+          "accepted_cameras": 13,
+          "accepted_error": 0.019801980198019802,
+          "binomial_bonferroni_ucb_95": 0.04439016842385424,
+          "camera_bootstrap_degenerate": false,
+          "camera_bootstrap_sd": 0.010664770561901342,
+          "camera_bootstrap_simultaneous_upper_approx": 0.05935179557955775,
+          "camera_uncertainty_available": true,
+          "camera_uncertainty_reason": "approximate_estimate_available",
+          "coverage": 0.6544276457883369,
+          "errors": 18,
+          "reason": "passes_binomial_bonferroni_screening",
+          "screening_upper": 0.04439016842385424,
+          "status": "selected",
+          "threshold": 0.94
+        }
+      },
+      "seed": 2026,
+      "temperature": 1.225671182779469
+    }
+  ]
+}

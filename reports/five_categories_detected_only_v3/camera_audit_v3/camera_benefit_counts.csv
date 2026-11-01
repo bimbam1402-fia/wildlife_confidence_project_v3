@@ -1,0 +1,7 @@
+model,metric,cameras,improved,worsened,approximately_unchanged,equal_camera_mean_gain
+mobilenet_v3_large,nll,28,15,13,0,0.0241236755209642
+mobilenet_v3_large,brier,28,14,14,0,0.0064057344042535574
+mobilenet_v3_large,ece,28,10,18,0,-0.005008880455533279
+efficientnet_b0,nll,28,17,11,0,0.0003444077638834822
+efficientnet_b0,brier,28,15,13,0,-0.00024632794602312975
+efficientnet_b0,ece,28,17,11,0,0.0023704072910124513

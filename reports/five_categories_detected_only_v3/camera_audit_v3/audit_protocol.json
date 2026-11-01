@@ -1,0 +1,197 @@
+{
+  "decisions_sha256": "a4cafae5ee4bd5f8001ee1229acf4be3a16ecf359cbb56672643f35915ab79a0",
+  "experiment_id": "five_categories_detected_only_v3",
+  "manifest_sha256": "cd589d80a0db38cb6bee6927ba08d599f7c0119e673d4587063969268a0781f0",
+  "parent_completion_sha256": "43f7a420b89e50ce562840d64cd0171dde21922f16b9fb02f994fcf47021fa8a",
+  "parent_evaluation_sha256": "9bb2a0020a584ff5aa70c847d9f4397a4bd931ae8685412fd5c0ac39e97ee2b2",
+  "primary_gain_table_sha256": "02860acc84a12a9314f929d3a0ea0a441b645d4fcbe02f5765e38774b0b14903",
+  "selected_runs": [
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "210ea3a720a32e98437fb70910d08f88fe8a87bea1064d7b076d2921d64ca97d",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "82bd1da3f10e5c2e1a899811dfe26a51e4dd88344e73220123a31e784ebf30a3"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "f90b2a3b8314ca938377f3a9f72deddfc659aea18c1eecae2829042ebe59c828"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "f12be63436bf0de2237eb700719f64064b9d988182da13f51426a668ba1cb3d3"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 42,
+      "selected_epoch": 2,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "f515f4b992cc585f035c3a9ad731065e4f04228795cb03e7622a57f22f1b1df8",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "ddceada1b5e0aed250487d109b343c7963042e8b0d83b6f13e0f10d17aa42855"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "f2f65ddb27882103539087fcec0662b4a6023bcf3566c74ae99dd2e1bf8fa679"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "d70551992a69d4cb02b653dd4475f6d016ad82035f0c5554fdbf8dbf8d180f45"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 42,
+      "selected_epoch": 1,
+      "selected_stage": "head"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "b7f32c13818906041cfca6f6b734d2af622f5abcd3ce8b443e7917705a5e4f52",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "9a59cec28fc1f9161e3cb64d3db482430cb4cebb42176280018d5795590bbcc8"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "ab8192951775392556828b86aa4af22549b843b4f641a5c1abfa81f025655975"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "1c7f1e58f4430e3747b0967034233670c0f8998de238d1705571630ef663912c"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 123,
+      "selected_epoch": 4,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "3c435d179711d7e52ab17e5e5295812a48aba18b7846ece1cebd7b52196ac107",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "05470b084ea1406a9ff8f2461a0bf53bcfbef0d89490db67fdc547ada8e31bd3"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "af09602ade47d014f712c7bc0f4faa5ac7b05dad0d67e244596d06b111912ea9"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "12d5c03e9d4a0f2e3d74ee7f545629aea365d069ac1e66500fa984b2db383013"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 123,
+      "selected_epoch": 1,
+      "selected_stage": "head"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "a0d7865c2dcbfd6486785c72e52b2a595170daddd109b5b19b58a1e361e04759",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "91ab1f83f7b18d1852e1c3e1d4e696c3b4dc3e918cc9524b9ddcc35d3969d71d"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "43d54ffb9fa67685a2c1dc959a9ed5965ab879670d71f0d1da5b8bcd5c1ff483"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "538c9e18e3613b46977d3639a24b82bc5b6b8d44eb2b3f400d90f318038a2b9b"
+        }
+      },
+      "model": "mobilenet_v3_large",
+      "seed": 2026,
+      "selected_epoch": 4,
+      "selected_stage": "finetune"
+    },
+    {
+      "checkpoint_file": "best_selected.pt",
+      "checkpoint_sha256": "08c3c8ea1c22b8f136acbb344bdda3c08610fb669486ce1e8b8b3c0bdd7d62cb",
+      "development_exports": {
+        "calibration": {
+          "file": "calibration_logits.npz",
+          "sha256": "7ce26490c2596740b8f815d78b4f33ee423a72442ec8b80ccfc0364ca73523b8"
+        },
+        "policy": {
+          "file": "policy_logits.npz",
+          "sha256": "05cd5eddd0a53db9978d811d55851062221758736879ee812fb5492ace9399c5"
+        },
+        "validation": {
+          "file": "validation_logits.npz",
+          "sha256": "5da30f6655a5859d50f702f1588e152ad095715500a9be675121882884217159"
+        }
+      },
+      "model": "efficientnet_b0",
+      "seed": 2026,
+      "selected_epoch": 4,
+      "selected_stage": "finetune"
+    }
+  ],
+  "settings": {
+    "analysis_status": "v2_camera_sensitivity_existing_predictions",
+    "audit_version": 3,
+    "bootstrap_repeats": 2000,
+    "bootstrap_seed": 20261026,
+    "ece_bins": 15,
+    "gain_direction": "raw minus scaled; positive means calibration improves loss",
+    "interaction_direction": "EfficientNet gain minus MobileNet gain; positive favours EfficientNet",
+    "primary_gain_metric": "nll",
+    "small_camera_flag_below": 30
+  },
+  "test_exports": [
+    {
+      "file": "models/five_categories_detected_only_v3/evaluation_v3/mobilenet_v3_large_seed42_test_logits.npz",
+      "model": "mobilenet_v3_large",
+      "seed": 42,
+      "sha256": "b352d86dab2b0358bdc8493b6c1893f333092907d1f0c75f4eb318ddb5704ce2"
+    },
+    {
+      "file": "models/five_categories_detected_only_v3/evaluation_v3/efficientnet_b0_seed42_test_logits.npz",
+      "model": "efficientnet_b0",
+      "seed": 42,
+      "sha256": "8a6c9bdda40169a69baf0d3e62f0f66f866e8f3e202275dc0c20e1c2dd5f1324"
+    },
+    {
+      "file": "models/five_categories_detected_only_v3/evaluation_v3/mobilenet_v3_large_seed123_test_logits.npz",
+      "model": "mobilenet_v3_large",
+      "seed": 123,
+      "sha256": "492f5a1ef38bf884b027e40a7b91d0c830d19860c408d0d4803a01a47f6485ce"
+    },
+    {
+      "file": "models/five_categories_detected_only_v3/evaluation_v3/efficientnet_b0_seed123_test_logits.npz",
+      "model": "efficientnet_b0",
+      "seed": 123,
+      "sha256": "8c9d4c724c655d83a27c7af1ea698504f8c01c19ef0da048e25af1560689ce04"
+    },
+    {
+      "file": "models/five_categories_detected_only_v3/evaluation_v3/mobilenet_v3_large_seed2026_test_logits.npz",
+      "model": "mobilenet_v3_large",
+      "seed": 2026,
+      "sha256": "e981594f7e0ae77908390776dfae3353b604b2c629525b0429fb6cb97f62ffd7"
+    },
+    {
+      "file": "models/five_categories_detected_only_v3/evaluation_v3/efficientnet_b0_seed2026_test_logits.npz",
+      "model": "efficientnet_b0",
+      "seed": 2026,
+      "sha256": "e58aa7a23004536a05ed50bd4e65a4c7c2b8bb581f0260d0409e8a5b6ae570c6"
+    }
+  ],
+  "training_id": "training_v3",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "python": "3.11.16"
+  }
+}
