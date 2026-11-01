@@ -1,0 +1,69 @@
+{
+  "augmentation": "training_only_horizontal_flip_p0.5",
+  "batch_size": 4,
+  "camera_split_sha256": "5d65707544cdafe9ae2208ca745623e4b1713c13a5e363ba902800963510f9fb",
+  "classes": [
+    "coyote",
+    "deer",
+    "fox",
+    "rabbit",
+    "skunk"
+  ],
+  "cpu_threads": 4,
+  "cudnn_benchmark": false,
+  "dataset_design": "v3_exact_V2_animal_crop_subset_inherited_camera_assignments",
+  "deterministic_algorithms": "warn_only",
+  "device_backend": "cpu",
+  "device_description": "x86_64",
+  "early_stopping_patience": 3,
+  "experiment_id": "five_categories_detected_only_v3",
+  "final_checkpoint_file": "best_selected.pt",
+  "finetune_batchnorm": "updated",
+  "finetune_learning_rate": 0.0001,
+  "finetune_max_epochs": 10,
+  "head_epochs": 2,
+  "head_learning_rate": 0.001,
+  "head_stage_batchnorm": "feature_statistics_frozen",
+  "improvement_min_delta": 0.0,
+  "loss": "unweighted_cross_entropy",
+  "manual_crop_verification_performed": false,
+  "models": [
+    "mobilenet_v3_large",
+    "efficientnet_b0"
+  ],
+  "num_workers": 0,
+  "optimizer": "AdamW",
+  "planned_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "pretrained_weights": {
+    "efficientnet_b0": "IMAGENET1K_V1",
+    "mobilenet_v3_large": "IMAGENET1K_V2"
+  },
+  "protocol_sha256": "01d9b7d9d7cffca8e6e61bc4ed5119c8be1098a037a2610bfa88d686c381e49c",
+  "ready_manifest_sha256": "cd589d80a0db38cb6bee6927ba08d599f7c0119e673d4587063969268a0781f0",
+  "selection": "lowest_validation_NLL_across_head_and_finetune",
+  "selection_metric": "validation_nll",
+  "selection_protocol_sha256": "256dbc23d26e2d35a7063eaf513bbbcc5b27daa555ebcb243871c280b5e8f213",
+  "selection_tie_rule": "head_before_finetune_then_earliest_epoch",
+  "selection_weighting": "event",
+  "subset_sha256": "1c2bf0d513e9e213d8592b6c59662b4024e56d28900604abbae48732c2da7d67",
+  "train_drop_last": true,
+  "training_id": "training_v3",
+  "training_revision": 3,
+  "validation_diagnostics": [
+    "event_nll",
+    "equal_camera_nll"
+  ],
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "pillow": "12.2.0",
+    "python": "3.11.16",
+    "torch": "2.14.0+cu130",
+    "torchvision": "0.29.0+cu130"
+  },
+  "weight_decay": 0.0001
+}

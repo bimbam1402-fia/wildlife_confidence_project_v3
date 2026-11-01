@@ -1,0 +1,73 @@
+{
+  "cache_preprocessing": {
+    "format": "PNG",
+    "orientation": "crop_requires_identity_EXIF",
+    "original_retention": "in_memory_only",
+    "padding": [
+      124,
+      116,
+      104
+    ],
+    "pillow_version": "12.2.0",
+    "resize": "LANCZOS_aspect_preserving_nearest_integer",
+    "rgb": true,
+    "side": 224
+  },
+  "class_to_idx": {
+    "coyote": 0,
+    "deer": 1,
+    "fox": 2,
+    "rabbit": 3,
+    "skunk": 4
+  },
+  "classes": [
+    "coyote",
+    "deer",
+    "fox",
+    "rabbit",
+    "skunk"
+  ],
+  "crop_rule": {
+    "margin_fraction_per_side": 0.05,
+    "no_detection": "exclude_event_no_replacement",
+    "plan_sha256": "9795051c1d1b7acc98b61741a167b9397ce0c5e95f88bb67796ae328ab28bf2b",
+    "selection": "highest_animal_confidence_then_bbox_coordinates",
+    "technical_errors": "block_readiness"
+  },
+  "detector_overlap_limit": "MDv5 inherited Caltech training data; detector holdout not guaranteed",
+  "experiment_id": "five_categories_detected_only_v3",
+  "input_sha256": {
+    "camera_split.json": "5d65707544cdafe9ae2208ca745623e4b1713c13a5e363ba902800963510f9fb",
+    "event_manifest_all_categories.csv": "0f70e0c87315a21e81bcad598466fa0e396c2282c7dc7fb44337b7f07e40f06c",
+    "excluded_images.csv": "f16e4887cd472d9c5e5b0465417597dc33f2062e3d8e372aa46bcb10f8da0953",
+    "excluded_sequences.csv": "061d3c264d8901c1b17f9123289f1e29ec9fa77f99b502de3430425e26aa40d7",
+    "five_categories_detected_only_v3/classes.json": "78ef8701870d122ac6afa89ab1dea0e6a13cb986491b7648dee4a70569d5e4f0",
+    "five_categories_detected_only_v3/crop_plan.csv": "9795051c1d1b7acc98b61741a167b9397ce0c5e95f88bb67796ae328ab28bf2b",
+    "five_categories_detected_only_v3/excluded_fallback_events.csv": "20e70d113e0106d906df97826c43708711a54c8a30013da4c8881b7183934d06",
+    "five_categories_detected_only_v3/selection_protocol.json": "256dbc23d26e2d35a7063eaf513bbbcc5b27daa555ebcb243871c280b5e8f213",
+    "five_categories_detected_only_v3/subset_manifest.csv": "1c2bf0d513e9e213d8592b6c59662b4024e56d28900604abbae48732c2da7d67",
+    "image_manifest.csv": "84e159670e0a297f7bbaf7f6dfaabc118b35f18c81067533bbf4addaaeb15cd9",
+    "preparation_run.json": "7695339fe98d5b7b933a5558e49f181a1c7d1162f148b17b03dfbabaeb24930d",
+    "v2_reference/classes.json": "78ef8701870d122ac6afa89ab1dea0e6a13cb986491b7648dee4a70569d5e4f0",
+    "v2_reference/crop_plan.csv": "bbe187a83fd2a859e281a6ba99fafa1e1b7d10b3803987c6d25d2a8838985f5e",
+    "v2_reference/protocol.json": "c2dd4abab6d3ffa1bad287dc84d808ab6b54c36dc5ed1d79b4dc8ac86259966b",
+    "v2_reference/selection_protocol.json": "2efde71bb734eeafe31c29d8d8c65b3c3340216f7bd9bf564f40180b657e6614",
+    "v2_reference/subset_manifest.csv": "354af48bc70f501a89490b28f961fe3c20b8a81967ebf966b4a785333cee8676",
+    "v2_reference/training_ready_manifest.csv": "88cbfab4f50c23796949d17a15a5eea8fdbd8609fe4d24cb8e3dfd34f88a361f"
+  },
+  "megadetector": {
+    "animal_category": "1",
+    "archive_sha256": "6caba6a78795a24320e83697fab40cd7dd527a245ae1810611ca704696cf20b6",
+    "confidence_threshold": 0.2,
+    "local_inference_performed": false,
+    "model": "md_v5a.0.0.pt",
+    "rde_applied": false,
+    "source": "official_precomputed_raw_LILA_predictions",
+    "url": "https://lila.science/public/lila-md-results/caltech-camera-traps_mdv5a.0.0_results.json.zip"
+  },
+  "parent_experiment_id": "five_categories_camera_balanced_v2",
+  "pipeline_kind": "megadetector_detected_only_single_v3",
+  "prior_test_exposure": "V3 designed after V1/V2 test inspection; same camera assignments; revised sensitivity experiment, not independent confirmation",
+  "protocol_version": 3,
+  "scope": "five known categories; one selected frame per event; conditional on qualifying MD animal detection"
+}

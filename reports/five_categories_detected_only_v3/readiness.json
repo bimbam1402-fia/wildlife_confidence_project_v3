@@ -1,0 +1,11 @@
+{
+  "cache_action": "independent_verified_copy_of_V2_animal_crops",
+  "cross_split_duplicate_rows": 0,
+  "full_frame_fallbacks_retained": 0,
+  "manual_crop_verification_performed": false,
+  "planned_images": 11323,
+  "protocol_sha256": "01d9b7d9d7cffca8e6e61bc4ed5119c8be1098a037a2610bfa88d686c381e49c",
+  "ready_for_final_training": true,
+  "subset_sha256": "1c2bf0d513e9e213d8592b6c59662b4024e56d28900604abbae48732c2da7d67",
+  "verified_images": 11323
+}
